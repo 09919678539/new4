@@ -1,0 +1,345 @@
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-Regular.woff2") format("woff2");
+    font-display: swap;   
+}
+
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-ExtraLight.woff2") format("woff2");
+    font-weight: 100;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-Light.woff2") format("woff2");
+    font-weight: 200;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-SemiBold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-Bold.woff2") format("woff2");
+    font-weight: 900;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-ExtraBold.woff2") format("woff2");
+    font-weight: bold;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: saman;
+    src: url("./fonts/Vazirmatn-RD-Black.woff2") format("woff2");
+    font-weight: bolder;
+    font-display: swap;
+}
+@font-face {
+    font-family: hosseiny;
+    src: url("./fonts/Dima Shekasteh.ttf") format("truetype");
+}
+@font-face {
+    font-family: iran;
+    src: url("./fonts/iranyekanwebregular.woff") format("woff");
+}
+body{
+    color: black;
+    font-family: saman;
+}
+h1{
+    font-family: saman;
+    font-weight: bolder;
+}
+h2,h3{
+    font-family: saman;
+    font-weight: bold;
+}
+h4,h5,h6{
+    font-family: saman;
+    font-weight: 900;
+}
+strong,b{
+    font-family: saman;
+    font-weight: 700;
+}
+header{
+    font-family: saman;
+    font-weight: 100;
+}
+.header-search-form{
+    background-color: gainsboro;
+    border-radius: 90rem;
+    width: 500px;
+}
+.header-search-form input[type="text"]{
+    background-color: transparent;
+    border: none;
+    padding-right: 1rem;
+    width: 100%;
+    line-height: 3rem;
+}
+.header-search-form input[type="text"]:active,
+.header-search-form input[type="text"]:focus,
+.header-search-form input[type="text"]:focus-visible
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn-outline-secondary{
+    border: 2px solid rgba(171, 171, 171, 0.552);
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0.51rem;
+    border-radius: 10px;
+}
+header{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.403);
+}
+.swiper-story a{
+    text-decoration: none;
+    color: inherit;
+}
+.border-red{
+    border:2px solid red;
+}
+.swiper-button-next, .swiper-button-prev{
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 90rem;
+    color: black;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 0.9rem;
+}
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled{
+    visibility: hidden;
+    opacity: 0;
+}
+.swiper-main .swiper-button-next,
+.swiper-main .swiper-button-prev{
+    bottom: 1rem;
+    top:auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms;
+
+}
+.swiper-main .swiper-button-next{
+    right: 6rem;
+}
+.swiper-main .swiper-button-prev{
+    right: 1rem;
+}
+.swiper-main:hover .swiper-button-next,
+.swiper-main:hover .swiper-button-prev{
+    visibility: visible;
+    opacity: 1;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    box-shadow: 1px 1px 10px #00000052;
+}
+
+.swiper-pagination-bullet-active{
+    background: white;
+    width: 27px;
+    border-radius: 10px;
+}
+.gerdaloo a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.after-line{
+    position: relative;
+}
+.after-line::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    width: 2px;
+    height: 41px;
+    background-color: #ababab;
+}
+.germezo{
+   background: linear-gradient(225deg,#d22c4e,#ee384e 41.68%,#ef5662);
+   border-radius: 20px;
+
+}
+.sabzo{
+    background: linear-gradient(225deg,#32d22c,#3eee38 41.68%,#56ef56);
+    border-radius: 20px;
+}
+.germezo a,
+.sabzo a
+{
+    color: white;
+    text-decoration: none;
+}
+.germezo .swiper a,
+.sabzo .swiper a{
+    color: black;
+    text-decoration: none;
+}
+.bg-red{
+    background:linear-gradient(225deg,#d22c4e,#ee384e 41.68%,#ef5662);
+  
+
+}
+.rounded-pill{
+    border-radius: 90rem;
+    
+}
+.text-white{
+    color: white;
+}
+.germezo .swiper-slide:first-child .bg-white{
+    border-radius: 0 20px 20px 0;
+}
+.germezo .swiper-slide:last-child .bg-white{
+    border-radius: 20px 0 0 20px;
+}
+.home-image{
+    border-radius: 20px;
+}
+.agaghvagagh{
+    background: #f0f0f1 url("../images/freshPattern.svg") no-repeat;
+
+}
+.btn-success{
+    background-color: green;
+    color: white;
+    padding:0.51rem 2rem;
+    border-radius: 90rem;
+}
+.agaghvagagh a{
+    text-decoration: none;
+}
+.agaghvagagh{
+    border-radius: 20px;
+}
+.khas{
+    position: relative;
+    
+}
+.khas img{
+    border-radius: 90rem;
+}
+.khas .percent{
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: 2;
+    background-color: red;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 90rem;
+}
+.ziba-font{
+    font-family: hosseiny;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.catSwiper a{
+    text-decoration: none;
+    color: inherit;
+}
+.border{
+    border: 1px solid rgba(66, 65, 65, 0.39) ;
+    border-radius: 20px;
+    
+}
+.khas .w-40\/100{
+    width: 40% !important;
+
+    
+}
+.khas a{
+ text-decoration: none;
+ color: black;
+}
+.khas h2{
+    color: rgb(0, 200, 255);
+}
+.no-underline{
+    text-decoration: none;
+} 
+.text-primary{
+    color: inherit;
+}
+.percent{
+    padding: 0.5rem 0.75rem;
+
+}
+.old-price{
+    text-decoration: line-through;
+    color: #00000038;
+    font-size: 0.8rem;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card-body{
+    padding: 1rem;
+    min-height: 10rem;
+}
+.form-footer input{
+    padding: 1rem;
+    background-color: #d5d5d5;
+}
+.scroll{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    animation: yanki 1s;
+    transform: translate(0);
+}
+.scroll>a{
+    display: none;
+}
+.scroll>nav.top-header{
+    display: none;
+} 
+@keyframes yanki {
+    from{
+        transform: translate(0,-10rem);
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
